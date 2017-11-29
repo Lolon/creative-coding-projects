@@ -1,0 +1,29 @@
+#myContainer{
+  display: block;
+  margin: auto;
+  width: 30%;
+  padding: 20px;
+}
+
+h1{
+  font-size: 24px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  height: 50px;
+}
+body{
+  background-color: #B9C6FF;
+  padding: 0%;
+  margin: 0%;
+}
+header{
+  background-color: #C9ACFF;
+  width: 100%;
+  height: 100%;
+}
+footer{
+  background-color: #A29DE8;
+  width: 100%;
+  height: 100%;
+}

@@ -6,7 +6,8 @@
 
 let size = 50;
 function setup() {
-  createCanvas(500, 500);
+  var canvas = createCanvas(500, 500);
+  canvas.parent("myContainer");
 }
 
 function draw() {
@@ -39,7 +40,7 @@ function draw() {
       }
       //background
       else{
-        fill (255,119,0, mouse3 );
+        fill (201,172,255, mouse3 );
         console.log(mouseY/255);
       }
       //then build the rectangle
