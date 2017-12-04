@@ -7,7 +7,7 @@ function setup() {
 function draw() {
   //background(160);
 
-//  face();
+  face();
 
 for (let i=0; i<100; i++){
   push();
