@@ -47,7 +47,7 @@ class Circle {
   displayCircle(){
     noStroke();
     this.fillcol = color(this.rd, this.grn, this.bl, this.a)
-    fill(this.fillcol);
+    fill(random(255),random(255),random(255),random(255));
     ellipse(this.x,this.y, this.size, this.size);
   }
 }
